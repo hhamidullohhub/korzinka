@@ -209,10 +209,6 @@ body {
     border-radius: 10px;
 }
 
-.links {
-    /* margin-top: 120px; */
-}
-
 .boglanish-question {
     margin-top: 90px;
     color: white;
@@ -221,14 +217,14 @@ body {
 
 .boglanish-input {
     font-size: 15px;
-    padding: 10px 135px 10px 10px;
+    padding: 10px 125px 10px 10px;
     border-radius: 10px;
     margin: 10px 12px;
     border: none;
 }
 
 .boglanish-izoh {
-    padding: 10px 155px 50px 10px;
+    padding: 10px 148px 50px 10px;
     border-radius: 10px;
     margin: 10px 12px;
     border: none;
@@ -307,16 +303,66 @@ body {
     }
 }
 
-@media (max-width: 893px) {
-    .boglanish-display {
-        width: 500px;
+@media(max-width: 1150px) {
+    .sifatli-mahsulot {
+        width: 100%;
+        max-width: 600px;
+        margin: auto;
+        text-align: center;
+        border: 1px solid green;
+        padding-bottom: 50px;
     }
 
-    .about-all {
-        /* display: grid;
-        grid-template-columns: repeat(2, 1fr);
+    .mijozlar-text {
         margin: auto;
-        gap: 30px; */
+    }
+}
+
+@media (max-width: 1019px) {
+    .header-lorem {
+        width: 100%;
+        max-width: 600px;
+        /* text-align: center; */
+        margin: auto;
+        border: 1px solid red;
+    }
+
+    .header-title {
+        margin: auto;
+        text-align: center;
+    }
+
+    .img-meva {
+        margin: auto;
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 893px) {
+    .boglanish-display {
+        width: 100%;
+        max-width: 500px;
+        margin: auto;
+        border: 1px solid goldenrod;
+    }
+
+    .boglanish-email {
+        margin: auto;
+        border: 1px solid red;
+    }
+}
+
+@media (max-width: 859px) {
+    .header-sifat-logo {
+        width: 100%;
+        max-width: 600px;
+        margin: auto;
+        padding-top: 50px;
+        border: 1px solid red;
+    }
+
+    .header-sifat {
+        margin-left: auto;
     }
 }
 
@@ -343,7 +389,5 @@ body {
 }
 
 @media (max-width: 471px) {
-    .title-text {
-
-    }
+  
 }
