@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    padding: 0px 20px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+.header {
+    padding-bottom: 50px;
+}
+
+.meva {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+    background-color: #6C93DE;
+}
+
+.header-lorem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header-title {
+    width: 450px;
+    font-size: 40px;
+    color: #585858;
+    line-height: 40px;
+}
+
+.img-meva img {
+    width: 350px;
+}
+
+.title-text {
+    width: 100%;
+    max-width: 630px;
+    color: #828282;
+    line-height: 30px;
+    /* border: 1px solid red; */
+}
+
+.header-sifat-logo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.fa-solid {
+    font-size: 30px;
+}
+
+.header-sifat {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 100px;
+    padding: 10px 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.sifatli {
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+.sifatli-text {
+    font-size: 15px;
+    line-height: 30px;
+    color: #828282;
+}
+
+.mahsulot-title {
+    text-align: center;
+}
+
+.section-mahsulot {
+    padding-top: 50px;
+}
+
+.shirin-foydali {
+    color: blue;
+}
+
+.mahsulot-imgs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+.mahsulot-imgs img {
+    width: 260px;
+}
+
+.mahsulotlarimiz {
+    font-size: 35px;
+    text-transform: capitalize;
+    color: #585858;
+}
+
+
+.sifatli-mahsulot-all {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+    padding: 10px 15px;
+    margin-top: 60px;
+    border-radius: 7px;
+    background: linear-gradient(180deg, #EDF7FF 0%, rgba(237, 238, 255, 0.50) 100%);
+}
+
+.mijozlar-text {
+    width: 100%;
+    max-width: 300px;
+    line-height: 30px;
+    color: #575757;
+    /* border: 1px solid green; */
+}
+
+.mamnun-mijozlar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.mijozlar {
+    width: 100%;
+    max-width: 210px;
+    line-height: 25px;
+    padding: 20px 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.doctor {
+    padding: 10px 0px;
+}
+
+.doctor-text {
+    color: #575757;
+}
+
+.brend-text {
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 0;
+    color: #585858;
+}
+
+.brends {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 10px;
+}
+
+.boglanish {
+    font-size: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 50px;
+}
+
+.boglanish-display {
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+    /* border: 1px solid gold; */
+}
+
+.boglanish-email {
+    width: 350px;
+    height: 420px;
+    background-image: url(/img/stock-images-photodune-196400-apple-orchard-m6\ 1.png);
+    border-radius: 10px;
+}
+
+.links {
+    /* margin-top: 120px; */
+}
+
+.boglanish-question {
+    margin-top: 90px;
+    color: white;
+    text-align: center;
+}
+
+.boglanish-input {
+    font-size: 15px;
+    padding: 10px 135px 10px 10px;
+    border-radius: 10px;
+    margin: 10px 12px;
+    border: none;
+}
+
+.boglanish-izoh {
+    padding: 10px 155px 50px 10px;
+    border-radius: 10px;
+    margin: 10px 12px;
+    border: none;
+}
+
+.boglanish-button {
+    padding: 10px 123px 10px 140px;
+    border-radius: 10px;
+    margin: 10px 12px;
+    border: none;
+    background-color: #1877F2;
+    color: white;
+    text-align: center;
+}
+
+.map img {
+    width: 500px;
+    height: 350px;
+}
+
+.about-all {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: auto;
+    padding-top: 150px;
+}
+
+.about-item {
+    color: #6C93DE;
+}
+
+.menu {
+    color: #6C93DE;
+}
+
+.cell {
+    color: #6C93DE;
+}
+
+.socal-aloqa {
+    color: #6C93DE;
+}
+
+.about-text {
+    width: 100%;
+    max-width: 280px;
+    line-height: 27px;
+}
+
+.menular {
+    line-height: 27px;
+}
+
+.aloqa {
+    max-width: 100%;
+    max-width: 177px;
+    line-height: 27px;
+}
+
+.socal-all {
+    max-width: 100%;
+    width: 250px;
+}
+
+.socal {
+    max-width: 100%;
+    width: 100px;
+    line-height: 27px;
+}
+
+@media (max-width: 1152px) {
+    .mamnun-mijozlar {
+        margin: auto;
+    }
+}
+
+@media (max-width: 893px) {
+    .boglanish-display {
+        width: 500px;
+    }
+
+    .about-all {
+        /* display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: auto;
+        gap: 30px; */
+    }
+}
+
+@media (max-width: 780px) {
+    .map img {
+        margin: auto;
+    }
+}
+
+@media (max-width: 660px) {
+    .meva a {
+        display: none;
+    }
+}
+
+@media (max-width: 523px) {
+    .boglanish-display {
+        width: 360px;
+    }
+
+    .map img {
+        width: 350px;
+    }
+}
+
+@media (max-width: 471px) {
+    .title-text {
+
+    }
+}
