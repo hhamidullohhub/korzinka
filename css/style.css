@@ -387,7 +387,13 @@ body {
         width: 350px;
     }
 }
+/* 
+@media (max-width: 496px) {
+    .socal-all {
+        margin: auto;
+    }
 
-@media (max-width: 471px) {
-  
-}
+    .socal {
+        text-align: center;
+    }
+} */
