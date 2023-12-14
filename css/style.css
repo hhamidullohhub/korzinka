@@ -372,6 +372,12 @@ body {
     }
 }
 
+@media (max-width: 712px) {
+    .brends {
+        gap: 30px;
+    }
+}
+
 @media (max-width: 660px) {
     .meva a {
         display: none;
@@ -387,13 +393,18 @@ body {
         width: 350px;
     }
 }
-/* 
-@media (max-width: 496px) {
-    .socal-all {
-        margin: auto;
+ 
+@media (max-width: 524px) {
+    .header-title {
+        width: 100%;
+        max-width: 300px;
+        font-size: 20px;
     }
+}
 
-    .socal {
-        text-align: center;
+@media (max-width: 382px) {
+    .brends img {
+        width: 70px;
+        border: 1px solid red;
     }
-} */
+}
