@@ -15,11 +15,10 @@ body {
 }
 
 .container {
-    width: 100%;
     max-width: 1440px;
     padding: 0px 20px;
     margin: 0 auto;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 .header {
@@ -142,7 +141,6 @@ body {
     max-width: 300px;
     line-height: 30px;
     color: #575757;
-    /* border: 1px solid green; */
 }
 
 .mamnun-mijozlar {
@@ -199,14 +197,15 @@ body {
     flex-wrap: wrap;
     margin: auto;
     align-items: center;
-    /* border: 1px solid gold; */
 }
 
 .boglanish-email {
-    width: 350px;
+    width: 100%;
+    max-width: 500px;
     height: 420px;
     background-image: url(/img/stock-images-photodune-196400-apple-orchard-m6\ 1.png);
     border-radius: 10px;
+    padding: 0 20px;
 }
 
 .boglanish-question {
@@ -216,24 +215,33 @@ body {
 }
 
 .boglanish-input {
+    width: 100%;
+    height: 48px;
+    padding: 0 10px;
     font-size: 15px;
-    padding: 10px 125px 10px 10px;
+    /* padding: 10px 125px 10px 10px; */
     border-radius: 10px;
-    margin: 10px 12px;
+    margin: 10px 0;
     border: none;
 }
 
 .boglanish-izoh {
-    padding: 10px 148px 50px 10px;
+    width: 100%;
+    padding: 10px 10px 70px 10px;
+    /* padding: 50px 0; */
+    /* height: 100px; */
+    /* padding: 10px 148px 50px 10px; */
     border-radius: 10px;
-    margin: 10px 12px;
+    margin: 10px 0;
     border: none;
 }
 
 .boglanish-button {
-    padding: 10px 123px 10px 140px;
+    width: 100%;
+    height: 48px;
+    /* padding: 10px 123px 10px 140px; */
     border-radius: 10px;
-    margin: 10px 12px;
+    margin: 10px 0;
     border: none;
     background-color: #1877F2;
     color: white;
@@ -241,7 +249,7 @@ body {
 }
 
 .map img {
-    width: 500px;
+    width: 100%;
     height: 350px;
 }
 
@@ -297,9 +305,13 @@ body {
     line-height: 27px;
 }
 
-@media (max-width: 1152px) {
-    .mamnun-mijozlar {
+@media screen and (max-width: 400px) {
+
+    /* .mamnun-mijozlar {
         margin: auto;
+    } */
+    .container {
+        width: 400px;
     }
 }
 
@@ -324,7 +336,6 @@ body {
         max-width: 600px;
         /* text-align: center; */
         margin: auto;
-        border: 1px solid red;
     }
 
     .header-title {
@@ -343,12 +354,10 @@ body {
         width: 100%;
         max-width: 500px;
         margin: auto;
-        border: 1px solid goldenrod;
     }
 
     .boglanish-email {
         margin: auto;
-        border: 1px solid red;
     }
 }
 
@@ -358,17 +367,10 @@ body {
         max-width: 600px;
         margin: auto;
         padding-top: 50px;
-        border: 1px solid red;
     }
 
     .header-sifat {
         margin-left: auto;
-    }
-}
-
-@media (max-width: 780px) {
-    .map img {
-        margin: auto;
     }
 }
 
@@ -384,16 +386,17 @@ body {
     }
 }
 
-@media (max-width: 523px) {
+@media screen and (max-width: 400px) {
     .boglanish-display {
         width: 360px;
     }
 
-    .map img {
-        width: 350px;
+    .map {
+        width: 400px;
+        margin: 10px 10px;
     }
 }
- 
+
 @media (max-width: 524px) {
     .header-title {
         width: 100%;
@@ -402,9 +405,16 @@ body {
     }
 }
 
-@media (max-width: 382px) {
-    .brends img {
-        width: 70px;
-        border: 1px solid red;
+@media screen and (max-width: 400px) {
+    .img-meva img {
+        width: 300px;
     }
+
+    .boglanish-email {
+        width: 100%;
+        max-width: 400px;
+        height: 450px;
+    }
+
+
 }
