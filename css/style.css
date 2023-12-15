@@ -21,8 +21,32 @@ body {
 }
 
 .header {
-    /* padding-bottom: 50px; */
-    background-color: #6C93DE;
+    width: 100%;
+    background-image: url(/svg/Rectangle\ 22724.svg), url(/img/apple-tree-garden-green-fruit-970352\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lorem-all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lorem-h2 {
+    font-size: 50px;
+    color: white;
+}
+
+.lorem-p {
+    color: white;
+}
+
+.header-text {
+    text-transform: capitalize;
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
 }
 
 .meva {
