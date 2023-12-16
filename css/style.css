@@ -27,10 +27,27 @@ body {
     background-size: cover;
 }
 
+.lorem-boglanish {
+    padding: 20px 45px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    background-color: #6C93DE;
+}
+
 .lorem-all {
+    width: 100%;
     display: flex;
+    flex-wrap: wrap-reverse;
     justify-content: space-between;
     align-items: center;
+    border: 1px solid red;
+}
+
+.lorem {
+    width: 100%;
+    max-width: 580px;
+    border: 1px solid green;
 }
 
 .lorem-h2 {
@@ -39,7 +56,14 @@ body {
 }
 
 .lorem-p {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 22px 0px;
     color: white;
+}
+
+.lorem-img img {
+    width: 100%;
 }
 
 .header-text {
