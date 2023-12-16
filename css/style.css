@@ -375,6 +375,10 @@ body {
     .boglanish-email {
         margin: auto;
     }
+
+    .meva a {
+        display: none;
+    }
 }
 
 @media (max-width: 859px) {
@@ -393,12 +397,6 @@ body {
 @media (max-width: 712px) {
     .brends {
         gap: 30px;
-    }
-}
-
-@media (max-width: 660px) {
-    .meva a {
-        display: none;
     }
 }
 
