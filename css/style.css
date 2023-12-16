@@ -42,13 +42,11 @@ body {
     flex-wrap: wrap-reverse;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid red;
 }
 
 .lorem {
     width: 100%;
     max-width: 580px;
-    border: 1px solid green;
 }
 
 .lorem-h2 {
