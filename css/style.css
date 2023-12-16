@@ -15,6 +15,7 @@ body {
 }
 
 .container {
+    width: 100%;
     max-width: 1440px;
     padding: 0px 20px;
     margin: 0 auto;
@@ -348,11 +349,12 @@ body {
 
 @media screen and (max-width: 400px) {
 
-    /* .mamnun-mijozlar {
-        margin: auto;
-    } */
+    .section-boglanish {
+         width: 400px;
+    }
+    
     .container {
-        width: 400px;
+        /* width: 400px; */
     }
 }
 
