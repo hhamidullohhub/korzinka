@@ -264,11 +264,12 @@ body {
     align-items: center;
 }
 
-.instagram img {
-    width: 100px;
+.insta {
+    width: 100%;
+    max-width: 100%;
 }
 
-.instagram {
+.instagram-all {
     width: 100%;
     max-width: 100px;
 }
@@ -379,6 +380,11 @@ body {
     line-height: 27px;
 }
 
+.sub {
+    display: flex;
+
+}
+
 @media screen and (max-width: 400px) {
 
     .section-boglanish .container {
@@ -438,6 +444,14 @@ body {
     .meva a {
         display: none;
     }
+
+    .header-sifat {
+        margin: auto;
+    }
+
+    .header-sifat-logo {
+        padding-top: 50px;
+    }
 }
 
 @media (max-width: 859px) {
@@ -461,11 +475,13 @@ body {
 
 @media screen and (max-width: 400px) {
     .boglanish-display {
-        width: 360px;
+        width: 100%;
+        max-width: 360px;
     }
 
     .map {
-        width: 400px;
+        width: 100%;
+        max-width: 400px;
         margin: 10px 10px;
     }
 }
@@ -481,6 +497,11 @@ body {
 @media screen and (max-width: 400px) {
     .img-meva img {
         width: 300px;
+    }
+
+    .section-boglanish .container {
+        width: 100%;
+        max-width: 400px;
     }
 
     .boglanish-email {
