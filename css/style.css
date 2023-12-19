@@ -465,6 +465,15 @@ body {
     .header-sifat {
         margin-left: auto;
     }
+
+    .instagram-all {
+        width: 100%;
+        height: 200px;
+        max-width: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+    }
 }
 
 @media (max-width: 712px) {
@@ -483,6 +492,10 @@ body {
         width: 100%;
         max-width: 400px;
         margin: 10px 10px;
+    }
+
+    .brends {
+        display: none;
     }
 }
 
