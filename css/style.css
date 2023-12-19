@@ -114,11 +114,18 @@ body {
     gap: 20px;
 }
 
+.apple-icon {
+    position: absolute;
+    top: 15px;
+    right: 328px;
+}
+
 .fa-solid {
     font-size: 30px;
 }
 
 .header-sifat {
+    position: relative;
     width: 100%;
     max-width: 400px;
     margin-top: 100px;
@@ -276,19 +283,29 @@ body {
 
 .boglanish-display {
     width: 100%;
-    max-width: 1000px;
+    max-width: 1050px;
     margin-top: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     margin: auto;
     align-items: center;
+    border: 1px solid red;
+}
+
+.instagram img {
+    width: 100px;
+}
+
+.instagram {
+    width: 100%;
+    max-width: 100px;
 }
 
 .boglanish-email {
     width: 100%;
     max-width: 500px;
-    height: 440px;
+    height: 480px;
     background-image: url(/img/stock-images-photodune-196400-apple-orchard-m6\ 1.png);
     border-radius: 10px;
     padding: 0 20px;
@@ -443,6 +460,7 @@ body {
 
     .boglanish-email {
         margin: auto;
+
     }
 
     .meva a {
