@@ -114,10 +114,9 @@ body {
     gap: 20px;
 }
 
-.apple-icon {
-    position: absolute;
-    top: 15px;
-    right: 328px;
+.apple-img {
+    background-color: rgba(157, 157, 241, 0.854);
+    border-radius: 20px;
 }
 
 .fa-solid {
@@ -125,7 +124,6 @@ body {
 }
 
 .header-sifat {
-    position: relative;
     width: 100%;
     max-width: 400px;
     margin-top: 100px;
@@ -208,48 +206,19 @@ body {
     display: none;
 }
 
-@media screen and (max-width:400px) {
-    .none {
-        display: block;
-    }
-
-    .none>img {
-        position: absolute;
-        top: -50px;
-        /* margin-top: -50px; */
-        /* margin-bottom: 20px; */
-    }
-
-    .customers {
-        max-width: 210px;
-        line-height: 25px;
-        padding: 20px 10px;
-        background-color: white;
-        position: relative;
-        margin-top: 50px;
-    }
-
-    .block {
-        display: none;
-    }
-}
 
 .mijozlar {
-    /* width: 100%; */
     max-width: 210px;
     line-height: 25px;
     padding: 20px 10px;
     background-color: white;
     position: relative;
     margin-top: 30px;
-    /* border-radius: 10px; */
 }
 
 .svg-img {
     position: absolute;
     top: -50px;
-    /* margin-top: -50px; */
-    /* margin-bottom: 20px; */
 }
 
 .doctor {
@@ -344,6 +313,7 @@ body {
     height: 48px;
     border-radius: 10px;
     margin: 10px 0;
+    padding: 8px 0;
     border: none;
     background-color: #1877F2;
     color: white;
@@ -518,4 +488,29 @@ body {
     }
 
 
+}
+
+
+@media screen and (max-width:400px) {
+    .none {
+        display: block;
+    }
+
+    .none>img {
+        position: absolute;
+        top: -50px;
+    }
+
+    .customers {
+        max-width: 210px;
+        line-height: 25px;
+        padding: 20px 10px;
+        background-color: white;
+        position: relative;
+        margin-top: 50px;
+    }
+
+    .block {
+        display: none;
+    }
 }
