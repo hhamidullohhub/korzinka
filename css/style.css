@@ -95,6 +95,7 @@ body {
 }
 
 .img-meva img {
+    margin-top: 50px;
     width: 350px;
 }
 
@@ -170,12 +171,13 @@ body {
 
 
 .sifatli-mahsulot-all {
+    height: auto;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin: auto;
     align-items: center;
-    padding: 10px 15px;
+    padding: 40px 20px;
     margin-top: 60px;
     border-radius: 7px;
     background: linear-gradient(180deg, #EDF7FF 0%, rgba(237, 238, 255, 0.50) 100%);
@@ -195,13 +197,52 @@ body {
     gap: 30px;
 }
 
+.none {
+    display: none;
+}
+
+@media screen and (max-width:400px) {
+    .none {
+        display: block;
+    }
+
+    .none>img {
+        position: absolute;
+        top: -50px;
+        /* margin-top: -50px; */
+        /* margin-bottom: 20px; */
+    }
+
+    .customers {
+        max-width: 210px;
+        line-height: 25px;
+        padding: 20px 10px;
+        background-color: white;
+        position: relative;
+        margin-top: 50px;
+    }
+
+    .block {
+        display: none;
+    }
+}
+
 .mijozlar {
-    width: 100%;
+    /* width: 100%; */
     max-width: 210px;
     line-height: 25px;
     padding: 20px 10px;
     background-color: white;
-    border-radius: 10px;
+    position: relative;
+    margin-top: 30px;
+    /* border-radius: 10px; */
+}
+
+.svg-img {
+    position: absolute;
+    top: -50px;
+    /* margin-top: -50px; */
+    /* margin-bottom: 20px; */
 }
 
 .doctor {
@@ -257,6 +298,10 @@ body {
     margin-top: 90px;
     color: white;
     text-align: center;
+}
+
+.person {
+    margin-top: 30px;
 }
 
 .boglanish-input {
@@ -348,11 +393,7 @@ body {
 @media screen and (max-width: 400px) {
 
     .section-boglanish .container {
-         width: 400px;
-    }
-    
-    .container {
-        /* width: 400px; */
+        width: 400px;
     }
 }
 
@@ -366,6 +407,10 @@ body {
     }
 
     .mijozlar-text {
+        margin: auto;
+    }
+
+    .mamnun-mijozlar {
         margin: auto;
     }
 }
