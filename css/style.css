@@ -167,6 +167,10 @@ body {
     padding-top: 30px;
 }
 
+.mahsulot-imgs img:hover {
+    opacity: 0.5;
+}
+
 .mahsulot-imgs img {
     width: 260px;
 }
