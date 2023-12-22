@@ -167,11 +167,52 @@ body {
     padding-top: 30px;
 }
 
-.mahsulot-imgs img:hover {
+.mahsulot-imgs img {
+    transition: .6s;
+}
+
+
+/* .mahsulot-imgs{
+    position: relative;
+}
+
+
+.mahsulot-imgs>div>.text-none {
+    display: none;
+}
+
+.mahsulot-imgs>div>img:hover ~ .text-none {
+    position: absolute;
+    top: 200px;
+    left: 85px;
+    display: block;
+} */
+
+.chaq-chuq {
+    position: relative;
+}
+
+.chaq-chuq .txt {
+    display: none;
+}
+
+.chaq-chuq:hover > .txt {
+    position: absolute;
+    top: 180px;
+    left: 70px;
+    display: block;
+    z-index: 2;
+}
+
+.txt {
+    font-size: 25px;
+}
+
+.chaq-chuq:hover >img{
     opacity: 0.5;
 }
 
-.mahsulot-imgs img {
+.chaq-chuq img {
     width: 260px;
 }
 
@@ -322,7 +363,7 @@ body {
     margin: 10px 0;
     padding: 8px 0;
     border: none;
-    background-color: #1877F2;   
+    background-color: #1877F2;
     color: white;
     text-align: center;
 }
