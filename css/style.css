@@ -31,9 +31,16 @@ body {
 .lorem-boglanish {
     padding: 20px 45px;
     border-radius: 10px;
-    color: white;
+    color: #1877F2;
     font-size: 20px;
-    background-color: #6C93DE;
+    background-color: rgb(213, 210, 210);
+    border: 1px solid #557dc8;
+    transition: .6s;
+}
+
+.lorem-boglanish:hover {
+    background-color: #1877F2;
+    color: white;
 }
 
 .lorem-all {
@@ -114,13 +121,78 @@ body {
     gap: 20px;
 }
 
+/* .apple-img>img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: yellow;
+    width: 30px;
+    height: 30px;
+} */
+
 .apple-img {
-    width: 100%;
-    max-width: 50px;
-    height: 50px;
-    background-color: rgba(157, 157, 241, 0.854);
-    border-radius: 20px;
+    position: relative;
 }
+
+.colored-box {
+    /* width: 50px;
+    background-color: #de1a1a; */
+}
+
+/* .colored-box::before,
+.colored-box::after {
+    content: "";
+    z-index: -1;
+} */
+
+
+.colored-box::before {
+    content: "";
+    position: absolute;
+    top: -30px;
+    right: 0;
+    bottom: 0;
+    left: 80px;
+    width: 50px;
+    height: 50px;
+    background-color: #db1515;
+    z-index: 1;/
+}
+
+.colored-box>img::before,
+.colored-box>img::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    z-index: 3;
+}
+
+.colored-box::after {
+    content: "";
+    position: absolute;
+    top: -70px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+    background-color: blue;
+    /* Ikkinchi rang */
+    /* clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%); */
+    /* Chegaralarni belgilash uchun */
+}
+
+
+
+
+/* .apple-img::before {
+    position: absolute;
+    content: pink;
+} */
 
 .fa-solid {
     font-size: 30px;
@@ -172,45 +244,6 @@ body {
 }
 
 
-/* .mahsulot-imgs{
-    position: relative;
-}
-
-
-.mahsulot-imgs>div>.text-none {
-    display: none;
-}
-
-.mahsulot-imgs>div>img:hover ~ .text-none {
-    position: absolute;
-    top: 200px;
-    left: 85px;
-    display: block;
-} */
-
-.chaq-chuq {
-    position: relative;
-}
-
-.chaq-chuq .txt {
-    display: none;
-}
-
-.chaq-chuq:hover > .txt {
-    position: absolute;
-    top: 180px;
-    left: 70px;
-    display: block;
-    z-index: 2;
-}
-
-.txt {
-    font-size: 25px;
-}
-
-.chaq-chuq:hover >img{
-    opacity: 0.5;
-}
 
 .chaq-chuq img {
     width: 260px;
