@@ -137,10 +137,10 @@ body {
     position: relative;
 }
 
-.colored-box {
-    /* width: 50px;
-    background-color: #de1a1a; */
-}
+/* .colored-box {
+    width: 50px;
+    background-color: #de1a1a;
+} */
 
 /* .colored-box::before,
 .colored-box::after {
