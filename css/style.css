@@ -180,7 +180,8 @@ body {
     right: 0;
     bottom: 0;
     left: -6px;
-    width: 60px;
+    width: 100%;
+    max-width: 60px;
     height: 60px;
     z-index: 1;
     background-color: rgba(0, 0, 255, 0.248);
