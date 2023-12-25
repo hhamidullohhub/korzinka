@@ -279,10 +279,22 @@ body {
 }
 
 .line-button {
+    width: 50px;
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.458);
     transition: .6s;
 }
 
+.swipe {
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .line-button:hover {
+    background-color: rgb(19, 19, 218);
     transform: scale(1.1);
 } 
 
