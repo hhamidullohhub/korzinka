@@ -174,3 +174,58 @@ body {
 .section1-meet-text {
     font-size: 36px;
 }
+
+.section1-ul {
+    padding-top: 160px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section1-p_text {
+    width: 240px;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color: #343D48;
+}
+
+.smart-all {
+    padding-top: 200px;
+}
+
+.analytics-all {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.analytics-core-text {
+    color: #244886;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+}
+
+.analytics-smart-text {
+    width: 100%;
+    max-width: 440px;
+    color: #0F2137;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: -1.5px;
+}
+
+.smart-and-secure-all {
+    width: 100%;
+    max-width: 360px;
+    border: 1px solid red;
+}
