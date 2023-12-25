@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 
-ul,ol {
+ul,
+ol {
     list-style: none;
     display: inline-block;
 }
@@ -146,6 +147,7 @@ body {
     color: gainsboro;
     margin: 0 10px;
 }
+
 /* header-all header-all header-all header-all */
 
 
@@ -153,5 +155,22 @@ body {
 /* section1 section1 section1 section1 section1 */
 
 .section1 {
+    padding-top: 50px;
+}
 
+.meet-all {
+    text-align: center;
+}
+
+.section1-quality-text {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 40px;
+    /* 285.714% */
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+}
+
+.section1-meet-text {
+    font-size: 36px;
 }
