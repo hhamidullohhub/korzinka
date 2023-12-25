@@ -344,10 +344,11 @@ body {
     flex-wrap: wrap;
     padding: 30px 10px;
     gap: 30px;
+    transition: 6s;
 }
 
 .brends img {
-    transition: .6s;
+    transition: 6s;
 }
 
 .brends img:hover {
