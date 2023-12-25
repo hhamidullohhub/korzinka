@@ -61,15 +61,20 @@ body {
 }
 
 .header-button {
-    width: 100px;
+    width: 120px;
+    text-align: center;
     padding: 8px;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: -0.16px;
     border: 1px solid white;
-    border-radius: 10px;
+    border-radius: 20px;
     color: white;
+}
+
+.header-button:hover {
+    background-color: rgb(50, 50, 148);
 }
 
 .ultimate {
@@ -88,7 +93,7 @@ body {
     font-weight: 500;
     line-height: 42px;
     color: gainsboro;
-    line-height: 42px; /* 233.333% */
+    line-height: 42px;
 }
 
 .nav-all {
@@ -102,6 +107,8 @@ body {
 .nav-button-get {
     width: 150px;
     height: 50px;
+    border-radius: 20px;
+    border: none;
 }
 
 .nav-img img {
@@ -114,9 +121,22 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: 1px solid red; */
 }
 
 .nav-watch {
     color: white;
+}
+
+.nav-brends {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.nav-brends a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: gainsboro;
+    margin: 0 10px;
 }
