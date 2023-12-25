@@ -292,10 +292,16 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 30px 10px;
+    gap: 30px;
 }
 
 .brends img {
-    border: 2px solid blue;
+    transition: .6s;
+}
+
+.brends img:hover {
+    border: 1px solid rgb(73, 73, 149);
+    border-radius: 10px;
 }
 
 .sdf-img {
