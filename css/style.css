@@ -152,13 +152,13 @@ body {
 .colored-box::before {
     content: "";
     position: absolute;
-    top: -30px;
+    top: -6px;
     right: 0;
     bottom: 0;
-    left: 80px;
-    width: 70px;
-    height: 70px;
-    background-color: #db1515;
+    left: -6px;
+    width: 60px;
+    height: 60px;
+    background-color: #db15153f;
     border-radius: 25px;
     transform: rotate(10deg);
     z-index: 1;/
@@ -175,15 +175,15 @@ body {
 .colored-box::after {
     content: "";
     position: absolute;
-    top: -70px;
+    top: -6px;
     right: 0;
     bottom: 0;
-    left: 0;
-    width: 70px;
-    height: 70px;
+    left: -6px;
+    width: 60px;
+    height: 60px;
     z-index: 1;
-    background-color: blue;
-    border-radius: 25px;
+    background-color: rgba(0, 0, 255, 0.336);
+    border-radius: 20px;
     transform: rotate(10deg);
     /* Ikkinchi rang */
     /* clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%); */
