@@ -224,6 +224,7 @@ body {
 }
 
 .chaq-chuq:hover>img {
+    transform: scale(1.05);
     opacity: .6;
 }
 
@@ -289,6 +290,10 @@ body {
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 30px;
+}
+
+.customers:hover .svg-img {
+    transform: scale(1.05);
 }
 
 .none {
