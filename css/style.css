@@ -160,9 +160,17 @@ body {
     max-width: 60px;
     height: 60px;
     z-index: 1;
-    background-color: #6c94de60;
+    background-color: #6c94de3d;
     border-radius: 20px;
 }
+
+
+
+
+/* .apple-img::before {
+    position: absolute;
+    content: pink;
+} */
 
 .fa-solid {
     font-size: 30px;
