@@ -213,15 +213,29 @@ body {
     transition: .6s;
 }
 
-
-
 .chaq-chuq img {
     width: 260px;
 }
 
-.chaq-chuq>.text-none {
+/* chaqchuqlar chaqchuqlar chaqchuqlar chaqchuqlar*/
+
+.chaq-chuq>.meva-none {
     display: none;
 }
+
+.chaq-chuq:hover>.meva-none {
+    display: block;
+}
+
+.chaq-chuq>.chaq-none {
+    display: none;
+}
+
+.chaq-chuq:hover>.chaq-none {
+    display: block;
+}
+
+/* chaqchuqlar chaqchuqlar chaqchuqlar chaqchuqlar */
 
 .mahsulotlarimiz {
     font-size: 35px;
