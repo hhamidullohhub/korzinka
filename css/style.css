@@ -156,12 +156,13 @@ body {
     right: 0;
     bottom: 0;
     left: -6px;
-    width: 60px;
+    width: 100%;
+    max-width: 60px;
     height: 60px;
-    background-color: #db15153f;
+    background-color: #db151528;
     border-radius: 25px;
     transform: rotate(30deg);
-    z-index: 1;/
+    z-index: 1;
 }
 
 .colored-box>img::before,
@@ -173,7 +174,7 @@ body {
 }
 
 .colored-box::after {
-    content: "";
+    content: "";    
     position: absolute;
     top: -6px;
     right: 0;
@@ -182,7 +183,7 @@ body {
     width: 60px;
     height: 60px;
     z-index: 1;
-    background-color: rgba(0, 0, 255, 0.336);
+    background-color: rgba(0, 0, 255, 0.248);
     border-radius: 20px;
     /* transform: rotate(10deg); */
     /* Ikkinchi rang */
