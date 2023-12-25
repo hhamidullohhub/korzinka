@@ -278,6 +278,10 @@ body {
     background: linear-gradient(180deg, #EDF7FF 0%, rgba(237, 238, 255, 0.50) 100%);
 }
 
+.line-button:hover {
+    
+} 
+
 .mijozlar-text {
     width: 100%;
     max-width: 300px;
