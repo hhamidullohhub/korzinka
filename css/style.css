@@ -160,6 +160,7 @@ body {
     height: 70px;
     background-color: #db1515;
     border-radius: 25px;
+    transform: rotate(10deg);
     z-index: 1;/
 }
 
