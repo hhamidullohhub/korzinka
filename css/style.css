@@ -294,6 +294,11 @@ body {
     padding: 30px 10px;
 }
 
+.brends img {
+    /* width: 200px; */
+    border: 2px solid blue;
+}
+
 .boglanish {
     font-size: 30px;
     text-align: center;
