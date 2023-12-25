@@ -121,56 +121,42 @@ body {
     gap: 20px;
 }
 
-.apple-img {
+
+.colored-box {
     position: relative;
+    width: 60px;
+    height: 60px;
 }
 
-.colored-box::before {
+.colored-box::before,
+.colored-box::after {
     content: "";
     position: absolute;
-    top: -6px;
+    top: 0;
     right: 0;
     bottom: 0;
-    left: -6px;
-    width: 100%;
-    max-width: 60px;
-    height: 60px;
-    background-color: #FFE8C880;
-    border-radius: 25px;
+    left: 0;
+    border-radius: 20px;
+}   
+
+.colored-box::before {
+    background-color: rgba(255, 232, 200, 0.50);
     transform: rotate(30deg);
     z-index: 1;
 }
 
-.colored-box>img::before,
-.colored-box>img::after{
-    content: "";
+.colored-box::after {
+    z-index: 2;
+    background-color: #C5D9FF;
+}
+
+.colored-box img {
     position: absolute;
-    top: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: 3;
 }
-
-.colored-box::after {
-    content: "";    
-    position: absolute;
-    top: -6px;
-    right: 0;
-    bottom: 0;
-    left: -6px;
-    width: 100%;
-    max-width: 60px;
-    height: 60px;
-    z-index: 1;
-    background-color: #6c94de3d;
-    border-radius: 20px;
-}
-
-
-
-
-/* .apple-img::before {
-    position: absolute;
-    content: pink;
-} */
 
 .fa-solid {
     font-size: 30px;
