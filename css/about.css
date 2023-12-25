@@ -226,6 +226,19 @@ body {
 
 .smart-and-secure-all {
     width: 100%;
-    max-width: 360px;
+    max-width: 500px;
     border: 1px solid red;
+}
+
+.smart-feature {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    padding: 30px 0px;
+}
+
+.get-your-text {
+    width: 100%;
+    max-width: 450px;
+    line-height: 30px;
 }
