@@ -216,6 +216,7 @@ body {
 .analytics-smart-text {
     width: 100%;
     max-width: 440px;
+    padding: 30px 0;
     color: #0F2137;
     font-size: 48px;
     font-style: normal;
@@ -226,19 +227,28 @@ body {
 
 .smart-and-secure-all {
     width: 100%;
-    max-width: 500px;
-    border: 1px solid red;
+    max-width: 482px;
 }
 
 .smart-feature {
     display: flex;
     justify-content: space-around;
     align-items: start;
-    padding: 30px 0px;
+    margin: 30px 0;
+    padding: 30px 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    transition: .6s;
 }
 
-.get-your-text {
-    width: 100%;
+.smart-feature:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.358);
+}
+
+.secure-all {
+    width: 450px;
     max-width: 450px;
     line-height: 30px;
+    margin-left: 20px;
 }
