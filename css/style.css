@@ -295,8 +295,12 @@ body {
 }
 
 .brends img {
-    /* width: 200px; */
     border: 2px solid blue;
+}
+
+.sdf-img {
+    width: 170px;
+    height: 200px;
 }
 
 .boglanish {
