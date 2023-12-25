@@ -219,6 +219,10 @@ body {
     width: 260px;
 }
 
+.chaq-chuq>.text-none {
+    display: none;
+}
+
 .mahsulotlarimiz {
     font-size: 35px;
     text-transform: capitalize;
