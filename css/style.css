@@ -278,8 +278,12 @@ body {
     background: linear-gradient(180deg, #EDF7FF 0%, rgba(237, 238, 255, 0.50) 100%);
 }
 
+.line-button {
+    transition: .6s;
+}
+
 .line-button:hover {
-    
+    transform: scale(1.1);
 } 
 
 .mijozlar-text {
