@@ -219,19 +219,39 @@ body {
 
 /* chaqchuqlar chaqchuqlar chaqchuqlar chaqchuqlar*/
 
-.chaq-chuq>.meva-none {
+.chaq-chuq {
+    position: relative;
+}
+
+.chaq-chuq:hover>img {
+    opacity: .6;
+}
+
+.meva-none,.chaq-none,.sabzavot-none,.idish-none {
+    position: absolute;
+    font-size: 30px;
+    top: 45%;
+    right: 55px;
+    color: white;
+}
+
+.chaq-chuq>.meva-none,.chaq-none,.sabzavot-none,.idish-none {
     display: none;
 }
 
-.chaq-chuq:hover>.meva-none {
+.chaq-chuq:hover>.meva-none{
     display: block;
 }
 
-.chaq-chuq>.chaq-none {
-    display: none;
+.chaq-chuq:hover>.chaq-none {
+    display: block;
 }
 
-.chaq-chuq:hover>.chaq-none {
+.chaq-chuq:hover>.sabzavot-none {
+    display: block;
+}
+
+.chaq-chuq:hover>.idish-none {
     display: block;
 }
 
