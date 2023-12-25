@@ -25,6 +25,8 @@ body {
     /* border: 1px solid red; */
 }
 
+/* header-all header-all header-all header-all */
+
 .header {
     background-color: rgb(53, 53, 192);
     padding-bottom: 100px;
@@ -78,6 +80,7 @@ body {
     background-color: rgba(41, 41, 119, 0.555);
     color: rgb(134, 220, 134);
 }
+
 
 .ultimate {
     font-size: 85px;
@@ -142,4 +145,13 @@ body {
     text-transform: capitalize;
     color: gainsboro;
     margin: 0 10px;
+}
+/* header-all header-all header-all header-all */
+
+
+
+/* section1 section1 section1 section1 section1 */
+
+.section1 {
+
 }
