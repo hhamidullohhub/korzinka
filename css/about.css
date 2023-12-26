@@ -274,10 +274,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: start;
-    /* border: 1px solid green; */
 }
 
 .section2-li-texts {
     width: 270px;
-    /* border: 1px solid red; */
 }
