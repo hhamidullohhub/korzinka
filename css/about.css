@@ -381,8 +381,13 @@ body {
 }
 
 .section3-get-link {
+    margin-top: 30px;
     background-color: #1F3E76;
-    /* padding: 10px 10px; */
+    padding: 10px 10px;
+}
+
+.jackpot-img {
+    padding-top: 50px;
 }
 
 .jackpot-img img{
