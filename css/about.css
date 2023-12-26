@@ -252,3 +252,32 @@ body {
     line-height: 30px;
     margin-left: 20px;
 }
+
+/* section1 section1 section1 section1 section1 */
+
+
+/* section2 section2 section2 section2 section2  */
+
+.section2 {
+    padding-top: 100px;
+}
+
+.section2-ul {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px; 
+}
+
+.section2-li {
+    width: 340px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    /* border: 1px solid green; */
+}
+
+.section2-li-texts {
+    width: 270px;
+    /* border: 1px solid red; */
+}
