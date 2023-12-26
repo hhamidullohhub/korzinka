@@ -33,6 +33,12 @@ body {
     padding-bottom: 100px;
 }
 
+.header .container {
+    background-image: url(/svg/Rectangle.svg), url(/svg/Rectangle.svg), url(/svg/Rectangle\ 2.svg), url(/svg/Rectangle\ 2.1.svg);
+    background-repeat: no-repeat;
+    background-position: top left,bottom left, top center,bottom right;
+}
+
 .header-ul {
     display: flex;
     justify-content: space-around;
@@ -299,7 +305,6 @@ body {
 
 .section2-li {
     width: 100%;
-    max-width: 400px;
     display: flex;
     justify-content: space-between;
     align-items: start;
@@ -326,7 +331,8 @@ body {
 }
 
 .section2-li-texts {
-    width: 270px;
+    width: 100%;
+    max-width: 350px;
 }
 
 .section2-li-text {
@@ -337,6 +343,14 @@ body {
 @media screen and (max-width: 1200px) {
     .section2-ul {
         grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .section2-li-texts {
+        width: 100%;
+    }
+
+    .section2-li {
+        justify-content: space-evenly;
     }
 }
 
@@ -352,5 +366,12 @@ body {
 
     .section2-ul {
         grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .section2-li {
+        gap: 20px;
+        flex-direction: column;
     }
 }
