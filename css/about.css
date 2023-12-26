@@ -364,26 +364,33 @@ body {
 }
 
 .section3-jackpot {
+    width: 100%;
+    max-width: 440px;
     color: #0F2137;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
     line-height: 55px;
     letter-spacing: -1.5px;
+    border: 1px solid red;
 }
 
 .section3-jackpot-texts {
-    color: #02073E;
+    width: 100%;
+    max-width: 450px;
+    padding: 20px 0;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 42px;
+    color: #02073E;
 }
 
 .section3-get-link {
-    margin-top: 30px;
     background-color: #1F3E76;
-    padding: 10px 10px;
+    padding: 15px 20px;
+    border-radius: 20px;
+    color: white;
 }
 
 .jackpot-img {
@@ -433,4 +440,8 @@ body {
         gap: 20px;
         flex-direction: column;
     }
+
+    /* .section3-jackpot {
+        font-size: 30px;
+    } */
 }
