@@ -36,10 +36,10 @@ body {
 .header .container {
     background-image: url(/svg/Rectangle.svg), url(/svg/Rectangle.svg), url(/svg/Rectangle\ 2.svg), url(/svg/Rectangle\ 2.1.svg), url(/svg/Rectangle\ \(1\).svg);
     background-repeat: no-repeat;
-    background-position: top left,bottom left, top left 440px,bottom left 1000px, top right -15px, bottom right;
+    background-position: top left, bottom left, top left 440px, bottom left 1000px, top right -15px, bottom right;
 }
 
-.header-ul {    
+.header-ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -340,11 +340,37 @@ body {
     line-height: 26px;
 }
 
+/* section2 section2 section2 section2 section2 */
+
+
+/* section3 section3 section3 section3section3 */
+
+.section3-core-title {
+    color: #244886;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    /* 285.714% */
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+}
+
+.section3-jackpot {
+    color: #0F2137;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: -1.5px;
+}
+
 @media screen and (max-width: 1200px) {
     .section2-ul {
         grid-template-columns: repeat(2, 1fr);
     }
-    
+
     .section2-li-texts {
         width: 100%;
     }
@@ -355,7 +381,7 @@ body {
 }
 
 @media screen and (max-width: 800px) {
-    
+
     .ultimate {
         font-size: 50px;
     }
