@@ -23,7 +23,6 @@ body {
     max-width: 1920px;
     margin: 0 auto;
     padding: 0px 20px;
-    border: 1px solid red;
 }
 
 /* header-all header-all header-all header-all */
@@ -260,7 +259,6 @@ body {
     background-color: whitesmoke;
     border-radius: 10px;
     transition: .6s;
-    border: 1px solid red;
 }
 
 
