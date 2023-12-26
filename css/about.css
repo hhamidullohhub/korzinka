@@ -36,10 +36,10 @@ body {
 .header .container {
     background-image: url(/svg/Rectangle.svg), url(/svg/Rectangle.svg), url(/svg/Rectangle\ 2.svg), url(/svg/Rectangle\ 2.1.svg), url(/svg/Rectangle\ \(1\).svg);
     background-repeat: no-repeat;
-    background-position: top left,bottom left, top left 440px,bottom left 1000px, top right -15px;
+    background-position: top left,bottom left, top left 440px,bottom left 1000px, top right -15px, bottom right;
 }
 
-.header-ul {
+.header-ul {    
     display: flex;
     justify-content: space-around;
     align-items: center;
