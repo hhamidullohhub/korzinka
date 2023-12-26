@@ -345,6 +345,12 @@ body {
 
 /* section3 section3 section3 section3section3 */
 
+.jackpots-all {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .section3-core-title {
     color: #244886;
     font-family: DM Sans;
@@ -366,6 +372,14 @@ body {
     letter-spacing: -1.5px;
 }
 
+.section3-jackpot-texts {
+    color: #02073E;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+}
+
 @media screen and (max-width: 1200px) {
     .section2-ul {
         grid-template-columns: repeat(2, 1fr);
@@ -377,6 +391,10 @@ body {
 
     .section2-li {
         justify-content: space-evenly;
+    }
+
+    .jackpots-all {
+        flex-direction: column;
     }
 }
 
