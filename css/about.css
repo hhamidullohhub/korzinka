@@ -34,9 +34,9 @@ body {
 }
 
 .header .container {
-    background-image: url(/svg/Rectangle.svg), url(/svg/Rectangle.svg), url(/svg/Rectangle\ 2.svg), url(/svg/Rectangle\ 2.1.svg);
+    background-image: url(/svg/Rectangle.svg), url(/svg/Rectangle.svg), url(/svg/Rectangle\ 2.svg), url(/svg/Rectangle\ 2.1.svg), url(/svg/Rectangle\ \(1\).svg);
     background-repeat: no-repeat;
-    background-position: top left,bottom left, top center,bottom right;
+    background-position: top left,bottom left, top left 440px,bottom left 1000px, top right -15px;
 }
 
 .header-ul {
