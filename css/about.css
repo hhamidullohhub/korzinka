@@ -94,7 +94,8 @@ body {
 }
 
 .nav-text {
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     font-size: 18px;
     font-weight: 500;
     padding: 30px 0px;
@@ -143,8 +144,11 @@ body {
 }
 
 .nav-brends {
-    width: 350px;
+    width: 100%;
+    max-width: 350px;
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
     justify-content: space-between;
     margin-top: 20px;
 }
@@ -235,12 +239,19 @@ body {
     letter-spacing: -1.5px;
 }
 
+.analytics-all-img {
+    width: 100%;
+    max-width: 450px;
+}
+
 .smart-and-secure-all {
     width: 100%;
     max-width: 482px;
 }
 
 .smart-feature {
+    width: 100%;
+    max-width: 450px;
     display: flex;
     justify-content: space-around;
     align-items: start;
@@ -249,7 +260,10 @@ body {
     background-color: whitesmoke;
     border-radius: 10px;
     transition: .6s;
+    border: 1px solid red;
 }
+
+
 
 .smart-feature:hover {
     transform: scale(1.02);
@@ -257,7 +271,7 @@ body {
 }
 
 .secure-all {
-    width: 450px;
+    width: 100%;
     max-width: 450px;
     line-height: 30px;
     margin-left: 20px;
@@ -314,4 +328,15 @@ body {
 .section2-li-text {
     font-size: 15px;
     line-height: 26px;
+}
+
+@media screen and (max-width: 800px) {
+    
+    .ultimate {
+        font-size: 50px;
+    }
+
+    .header-li {
+        display: none;
+    }
 }
