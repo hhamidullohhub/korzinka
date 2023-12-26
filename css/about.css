@@ -380,6 +380,16 @@ body {
     line-height: 42px;
 }
 
+.section3-get-link {
+    background-color: #1F3E76;
+    /* padding: 10px 10px; */
+}
+
+.jackpot-img img{
+    width: 100%;
+    border: 1px solid red;
+}
+
 @media screen and (max-width: 1200px) {
     .section2-ul {
         grid-template-columns: repeat(2, 1fr);
