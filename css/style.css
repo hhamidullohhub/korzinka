@@ -79,6 +79,10 @@ body {
     color: white;
 }
 
+.header-text:hover {
+    color: brown;
+}
+
 .meva {
     display: flex;
     justify-content: space-evenly;
