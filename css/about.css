@@ -23,7 +23,6 @@ body {
     max-width: 1920px;
     margin: 0 auto;
     padding: 0px 20px;
-    border: 1px solid red;
 }
 
 /* header-all header-all header-all header-all */
@@ -36,7 +35,7 @@ body {
 .header .container {
     background-image: url(/svg/Rectangle.svg), url(/svg/Rectangle.svg), url(/svg/Rectangle\ 2.svg), url(/svg/Rectangle\ 2.1.svg), url(/svg/Rectangle\ \(1\).svg);
     background-repeat: no-repeat;
-    background-position: top left, bottom left, top left 440px, bottom left 1000px, top right -15px, bottom right;
+    background-position: top -50px left, bottom left, top left 440px, bottom left 1000px, top right -15px, bottom right;
 }
 
 .header-ul {
@@ -300,7 +299,6 @@ body {
     grid-template-columns: repeat(3, 1fr);
     justify-content: space-evenly;
     gap: 30px;
-    border: 1px solid green;
 }
 
 .section2-li {
@@ -372,7 +370,6 @@ body {
     font-weight: 700;
     line-height: 55px;
     letter-spacing: -1.5px;
-    border: 1px solid red;
 }
 
 .section3-jackpot-texts {
@@ -399,7 +396,6 @@ body {
 
 .jackpot-img img{
     width: 100%;
-    border: 1px solid red;
 }
 
 @media screen and (max-width: 1200px) {
