@@ -23,6 +23,7 @@ body {
     max-width: 1920px;
     margin: 0 auto;
     padding: 0px 20px;
+    border: 1px solid red;
 }
 
 /* header-all header-all header-all header-all */
@@ -289,10 +290,11 @@ body {
 .section2-ul {
     width: 100%;
     margin-top: 100px;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     justify-content: space-evenly;
-    flex-wrap: wrap;
     gap: 30px;
+    border: 1px solid green;
 }
 
 .section2-li {
@@ -332,6 +334,12 @@ body {
     line-height: 26px;
 }
 
+@media screen and (max-width: 1200px) {
+    .section2-ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 @media screen and (max-width: 800px) {
     
     .ultimate {
@@ -340,5 +348,9 @@ body {
 
     .header-li {
         display: none;
+    }
+
+    .section2-ul {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
