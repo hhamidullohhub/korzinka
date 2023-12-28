@@ -659,9 +659,9 @@ body {
 }
 
 .free-plan-link {
+    margin-top: 20px;
     width: 100%;
     text-align: center;
-    border: 1px solid green;
 }
 
 .display-premium-all {
@@ -748,11 +748,14 @@ body {
     width: 300px;
 }
 .premium-plan-link {
-    margin-top: 30px;
-    margin-left: 120px;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
 }
 
 .premium-plan-link-a {
+    width: 100%;
+    max-width: 200px;
     padding: 15px 30px;
     background-color: #1F3E76;
     color: white;
