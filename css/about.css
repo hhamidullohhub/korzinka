@@ -539,12 +539,18 @@ body {
 }
 
 .secore-all {
-    padding-top: 100px;
+    width: 100%;
+    max-width: 1400px;
+    /* padding-top: 100px; */
     display: flex;
     flex-wrap: wrap;
+    margin-top: 100px;
+    margin-left: auto;
+    justify-content: space-between;
     align-items: center;
-    justify-content: space-evenly;
-    border: 1px solid red;
+    background-color: gainsboro;
+    border-radius: 300px 0px 0px 0px;
+    
 }
 
 .core-all img {
@@ -559,7 +565,6 @@ body {
 .core-text-all {
     width: 100%;
     max-width: 500px;
-    border: 1px solid red;
 }
 
 .secure-text {
@@ -593,6 +598,223 @@ body {
 
 /* section5 section5 section5 section5 section5 */
 
+/* section6 section6 section6 section6 section6 */
+
+.section6 {
+    background: linear-gradient(105deg, #1E3C72 -2.04%, #2A5298 107.42%);
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
+
+.title-texts {
+    text-align: center;
+    color: white;
+}
+
+.title-text-what {
+    font-size: 24px;
+    line-height: 40px;
+    color: #fff6;
+}
+
+.title-text-lets {
+    font-size: 36px;
+    line-height: 55px;
+}
+
+.the-function-title {
+    width: 100%;
+    max-width: 500px;
+    height: 597px;
+    padding: 70px 50px;
+    background-color: #2A5298;
+    border-radius: 15px;
+}
+
+.the-function-title-free {
+    font-size: 25px;
+    color: white;
+}
+
+.the-function-title-for {
+    font-size: 16px;
+    color: #fff6;
+    line-height: 35px;
+}
+
+.ultimate-display {
+    width: 100%;
+    max-width: 330px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    /* border: 1px solid red; */
+}
+
+.ultimate-display-ultimate {
+    width: 300px;
+    /* border: 1px solid green; */
+}
+
+.free-plan-link {
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+.display-premium-all {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.premium-button {
+    width: 118px;
+    height: 31px;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    background-color: #EF9E48;
+    color: #fff;
+}
+
+.premium-button {
+    cursor: pointer;
+}
+
+.free-plan-link-a {
+    width: ;
+    padding: 15px 30px;
+    background-color: white;
+    border: 1px solid #1F3E76;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.free-plan-link-a:hover {
+    background-color: #3068c8;
+    color: white;
+    border: 1px solid white;
+}
+
+.premium-text-starting-display {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.the-premium-all {
+    width: 100%;
+    max-width: 500px;
+    padding: 30px 50px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.premium-text {
+    font-size: 25px;
+}
+
+.premium-for-texts {
+    font-size: 18px;
+}
+
+.starting-text {
+    font-size: 24px;
+}
+
+.starting-number {
+    font-size: 26px;
+    color: #25CB9E;
+}
+
+.premium-display {
+    width: 100%;
+    max-width: 330px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.premium-display-ultimate {
+    width: 300px;
+}
+.premium-plan-link {
+    margin-top: 30px;
+    margin-left: 120px;
+}
+
+.premium-plan-link-a {
+    padding: 15px 30px;
+    background-color: #1F3E76;
+    color: white;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.premium-plan-link-a:hover {
+    background-color: white;
+    color: #1F3E76;
+    border: 1px solid #1F3E76;
+}
+
+/* section6 section6 section6 section6 section6 */
+
+
+/* section7 section7 section7 section7 section7 */
+
+.section7 {
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.Frequent-Question-all {
+    width: 100%;
+}
+
+.frequent-title-text {
+    text-align: center;
+}
+
+.frequent-title {
+    color: #254887;
+    font-size: 20px;
+}
+
+.frequent-text {
+    line-height: 80px;
+    font-size: 36px;
+}
+
+.the-contact-all {
+    width: 100%;
+    max-width: 600px;
+    padding-top: 50px;
+    margin: auto;
+}
+
+.contact-how-text {
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.contact-all {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: start;
+    border-bottom: 2px solid  #E5ECF4;
+}
+
+
+/* section7 section7 section7 section7 section7 */
 @media screen and (max-width: 1200px) {
     .section2-ul {
         grid-template-columns: repeat(2, 1fr);
