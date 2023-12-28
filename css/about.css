@@ -821,16 +821,26 @@ body {
 
 .footer {
     padding: 50px;
-    background-color: #254887;
+    /* background-color: #254887; */
 } 
 
 .about-Us-ul{
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
+    gap: 40px;
+    border: 1px solid red;
+}
+
+.footer-about {
+    color: #0F2137;
+    padding-bottom: 20px;
 }
 
 .footer-p {
     line-height: 35px;
+    color: #02073E;
 }
 
 
