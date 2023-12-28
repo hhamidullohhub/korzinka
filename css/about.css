@@ -661,7 +661,7 @@ body {
 .free-plan-link {
     width: 100%;
     text-align: center;
-    border: 1px solid green
+    border: 1px solid green;
 }
 
 .display-premium-all {
@@ -814,9 +814,32 @@ body {
     justify-content: start;
     border-bottom: 2px solid  #E5ECF4;
 }
-
-
 /* section7 section7 section7 section7 section7 */
+
+
+/* footer footer footer footer footer footer */
+
+.footer {
+    padding: 50px;
+    background-color: #254887;
+} 
+
+.about-Us-ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-p {
+    line-height: 35px;
+}
+
+
+
+
+
+/* footer footer footer footer footer footer */
+
+
 @media screen and (max-width: 1200px) {
     .section2-ul {
         grid-template-columns: repeat(2, 1fr);
