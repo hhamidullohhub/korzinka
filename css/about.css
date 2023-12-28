@@ -626,7 +626,7 @@ body {
     width: 100%;
     max-width: 500px;
     height: 597px;
-    padding: 70px 50px;
+    padding: 70px 30px;
     background-color: #2A5298;
     border-radius: 15px;
 }
@@ -660,7 +660,7 @@ body {
 
 .free-plan-link {
     width: 100%;
-    padding-bottom: 30px;
+    text-align: center;
     border: 1px solid green
 }
 
@@ -713,7 +713,7 @@ body {
 .the-premium-all {
     width: 100%;
     max-width: 500px;
-    padding: 30px 50px;
+    padding: 30px 30px;
     background-color: #fff;
     border-radius: 15px;
 }
@@ -859,9 +859,5 @@ body {
     .section2-li {
         gap: 20px;
         flex-direction: column;
-    }
-
-    .free-plan-link-a {
-        padding: 15px 15px;
     }
 }
