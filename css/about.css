@@ -659,8 +659,9 @@ body {
 }
 
 .free-plan-link {
-    margin-left: 120px;
-    margin-top: 30px;
+    width: 100%;
+    padding-bottom: 30px;
+    border: 1px solid green
 }
 
 .display-premium-all {
@@ -688,7 +689,8 @@ body {
 }
 
 .free-plan-link-a {
-    width: ;
+    width: 100%;
+    max-width: 200px;
     padding: 15px 30px;
     background-color: white;
     border: 1px solid #1F3E76;
@@ -859,7 +861,7 @@ body {
         flex-direction: column;
     }
 
-    /* .section3-jackpot {
-        font-size: 30px;
-    } */
+    .free-plan-link-a {
+        padding: 15px 15px;
+    }
 }
